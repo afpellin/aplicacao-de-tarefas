@@ -1,24 +1,21 @@
-import { useState } from "react";
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import AddTask from "./pages/AddTask";
+import Header from "./components/Header";
+import { ToastContainer } from "react-toastify";
 
 export default function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="container">
-      <h1>Contador de Cliques</h1>
-      <h2>{count}</h2>
+    <div className="app">
+      <Header />
+      <main className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/add" element={<AddTask />} />
+        </Routes>
+      </main>
 
-      <button onClick={() => setCount(count + 1)}>
-        Clique para aumentar
-      </button>
-
-      {count > 0 && (
-        <button style={{ marginTop: "10px", background: "#d64545" }} 
-                onClick={() => setCount(0)}>
-          Resetar
-        </button>
-      )}
+      <ToastContainer position="top-right" autoClose={2500} theme="colored" />
     </div>
   );
 }

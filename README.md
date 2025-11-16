@@ -1,5 +1,11 @@
-📝 Aplicação de Tarefas – React, Router & Context API
+📝 Aplicação de Tarefas - React, Router & Context API - Projeto Final II DevStart - SENAI
 <p align="center"> <img src="https://img.shields.io/badge/STATUS-CONCLUÍDO-4CAF50?style=for-the-badge" /> <img src="https://img.shields.io/badge/REACT-18-61DAFB?style=for-the-badge&logo=react&logoColor=white" /> <img src="https://img.shields.io/badge/ROUTER-6.0-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white" /> <img src="https://img.shields.io/badge/CONTEXT-API-000000?style=for-the-badge&logo=react&logoColor=white" /> <img src="https://img.shields.io/badge/JAVASCRIPT-ES2021-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/LICENÇA-MIT-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/GITHUB-afpellin-000?style=for-the-badge&logo=github" /> </p>
+
+Este repositório contém o projeto desenvolvido como atividade final II do programa DevStart – SENAI, módulo de Desenvolvimento Front-End com React.
+
+🔗 https://devstart.tech/
+
+O objetivo é demonstrar domínio dos fundamentos do React, incluindo Hooks, gerenciamento de estado, componentização e eventos.
 
 Este repositório contém uma aplicação completa de gerenciamento de tarefas (To-Do List) desenvolvida em React, utilizando:
 
@@ -185,11 +191,18 @@ Organização de pastas em uma SPA profissional
 
 👨‍💻 Autor
 
-André Felipe Pellin Bonfim
-Desenvolvedor Full Stack
+André Felipe Pellin Bonfim - Desenvolvedor Full Stack
 
 📧 Email: afpellin@gmail.com
 
 🔗 LinkedIn: https://www.linkedin.com/in/afpellin/
 
 🐙 GitHub: https://github.com/afpellin
+
+🏫 Sobre o DevStart - SENAI
+
+O DevStart é um programa educacional do SENAI focado em capacitação prática para desenvolvimento de software.
+
+🔗 https://devstart.tech/
+
+🚀🚀🚀
